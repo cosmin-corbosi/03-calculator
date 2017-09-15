@@ -37,6 +37,14 @@
         android:layout_height="wrap_content"
         android:onClick="addNums"
         android:text="@string/add" />
+        <Button
+            style="@style/buttons"
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="clearFields"
+            android:text="@string/clear" />
     <Button
         style="@style/buttons.alt"
         android:id="@+id/subtr"
@@ -51,7 +59,7 @@
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:onClick="multNums""
+        android:onClick="multNums"
         android:text="@string/mult" />
     <Button
         style="@style/buttons.alt"

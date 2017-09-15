@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         etNum2 = (EditText) findViewById(R.id.num2);
         result = (TextView) findViewById(R.id.result);
     }
+    public void clearFields(View v) {
+        etNum1.setText(" ");
+        etNum2.setText(" ");
+        result.setText("cleared fields");
+    }
 
     public void addNums(View v) {
         num1 = Double.parseDouble(etNum1.getText().toString());

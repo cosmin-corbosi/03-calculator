@@ -3,6 +3,7 @@
     <string name="add">Add</string>
     <string name="subtr">Subtract</string>
     <string name="mult">Multiply</string>
+    <string name="clear">Clear</string>
     <string name="div">Divide</string>
     <string name="enter_hint">Enter a number</string>
 </resources>
